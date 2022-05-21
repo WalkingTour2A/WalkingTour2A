@@ -1,0 +1,283 @@
+@charset "utf-8";
+
+ul {
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+    transition: all .5s;
+}
+
+body  { 
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+}
+
+nav {
+    background-color: #006666;
+    padding: 0 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav, ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li, button#Igreja {
+    padding: 0 20px;
+}
+
+li:hover,h1:hover, button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: #008584;
+    border-radius: 1000px;
+}
+
+h1 {
+    padding: 10px;
+    margin: 10;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 36px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+button:focus ~ ul{
+    height: 365px;
+}
+
+@media (max-width: 900px) {
+    nav, ul{
+        flex-direction: column;
+    }
+    ul {
+        text-align: center;
+        margin: 0;
+        height: 0;
+    }
+    nav {
+        padding: 0;
+        align-items: flex-start;
+    }
+    h1 {
+        margin: 20px;
+    }
+    button {
+        display: flex;
+    }
+    li, ul {
+        width: 100%;
+    }
+
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-size: larger;
+}
+
+div#Lagoinha{
+    font-weight: 600;
+    text-align: left;
+}
+
+h1{
+    padding: 0px;
+    margin: 0px;
+    text-align: right;
+}
+
+img#mirante {
+    width: 430px;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+p#mirante {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+figcaption{
+    text-align: center;
+    font-size: 15px;
+    margin: 40px;
+    margin-top: 10px;
+}
+div#mirante{
+    background-color: #cccccc;
+    margin: 50px;
+    border-radius: 30px;
+    padding: 2px;
+}
+
+img#Igreja {
+    width: 430px;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+p#igreja{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+figcaption{
+    text-align: center;
+    font-size: 15px;
+    margin: 40px;
+    margin-top: 10px;
+}
+div#igreja{
+    background-color: #cccccc;
+    margin: 50px;
+    border-radius: 30px;
+    padding: 2px;
+}
+
+img#Cemitério {
+    width: 430px;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+p#Cemitério{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+figcaption{
+    text-align: center;
+    font-size: 15px;
+    margin: 40px;
+    margin-top: 10px;
+}
+div#Cemitério{
+    background-color: #cccccc;
+    margin: 50px;
+    border-radius: 30px;
+    padding: 2px;
+}
+
+img#Grafite {
+    width: 430px;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+p#Grafite{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+figcaption{
+    text-align: center;
+    font-size: 15px;
+    margin: 40px;
+    margin-top: 10px;
+}
+div#Grafite{
+    background-color: #cccccc;
+    margin: 50px;
+    border-radius: 30px;
+    padding: 2px;
+}
+
+
+
+img#Casarão {
+    width: 430px;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+p#Casarão{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+figcaption{
+    text-align: center;
+    font-size: 15px;
+    margin: 40px;
+    margin-top: 10px;
+}
+div#Casarão{
+    background-color: #cccccc;
+    margin: 50px;
+    border-radius: 30px;
+    padding: 2px;
+}
+
+
+
+img#Lagoa {
+    width: 430px;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+p#Lagoa{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+figcaption{
+    text-align: center;
+    font-size: 15px;
+    margin: 40px;
+    margin-top: 10px;
+}
+div#Lagoa{
+    background-color: #cccccc;
+    margin: 50px;
+    border-radius: 30px;
+    padding: 2px;
+}
+
+
+
+img#CostaDaLagoa {
+    width: 430px;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+p#CostaDaLagoa{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+figcaption{
+    text-align: center;
+    font-size: 15px;
+    margin: 40px;
+    margin-top: 10px;
+}
+div#CostaDaLagoa{
+    background-color: #cccccc;
+    margin: 50px;
+    border-radius: 30px;
+    padding: 2px;
+}
+
+.btn{
+    padding: 10px 8px;
+    width: 70px;
+    color: #cccccc;
+    background-color: #008584;
+    border: #e61212;
+    border-radius: 80px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+h3{
+    font-size: 40px;
+}
